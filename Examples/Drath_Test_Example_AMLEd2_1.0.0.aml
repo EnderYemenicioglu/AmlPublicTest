@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CAEXFile SchemaVersion="3.0" FileName="Drath_Test_Example_AMLEd2_1.0.0.aml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.dke.de/CAEX" xsi:schemaLocation="http://www.dke.de/CAEX CAEX_ClassModel_V.3.0.xsd">
+  <SuperiorStandardVersion>AutomationML 2.1</SuperiorStandardVersion>
+  <SourceDocumentInformation OriginName="AutomationML Editor" OriginID="916578CA-FE0D-474E-A4FC-9E1719892369" OriginVersion="6.4.2.11" LastWritingDateTime="2025-08-06T08:14:09.5312057+02:00" OriginProjectID="unspecified" OriginProjectTitle="unspecified" OriginRelease="6.4.2.11" OriginVendor="AutomationML e.V." OriginVendorURL="www.AutomationML.org" />
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/HSPF_MasterClass_AttributeTypeLib_AMLEd2_1.0.2.aml" Alias="HSPFMasterClassAttributeTypeLibAMLEd21_0_2" />
+  <InstanceHierarchy Name="MyProject" ID="1449d1ca-0023-4529-aba6-8e0d06a2f886">
+    <Version>1.0.0</Version>
+    <InternalElement Name="Tank" ID="e7868085-af9e-4071-93a1-8e39fa5d275f" RefBaseSystemUnitPath="Mylib/Tank">
+      <Attribute Name="laenge-Typ" AttributeDataType="xs:string" RefAttributeType="HSPFMasterClassAttributeTypeLibAMLEd21_0_2@HSPF_MasterClass_AttributeTypeLib/laenge-Typ" />
+    </InternalElement>
+  </InstanceHierarchy>
+  <SystemUnitClassLib Name="Mylib" ID="27e8a13d-1681-4e7c-bcaf-a2e8d19b0a56">
+    <Version>1.0.0</Version>
+    <SystemUnitClass Name="Tank" ID="6214928b-877c-4bca-9ee7-9afffa04f8ae">
+      <Description>test</Description>
+      <Version>1.0.0</Version>
+      <Attribute Name="laenge-Typ" AttributeDataType="xs:string" RefAttributeType="HSPFMasterClassAttributeTypeLibAMLEd21_0_2@HSPF_MasterClass_AttributeTypeLib/laenge-Typ" />
+    </SystemUnitClass>
+  </SystemUnitClassLib>
+</CAEXFile>

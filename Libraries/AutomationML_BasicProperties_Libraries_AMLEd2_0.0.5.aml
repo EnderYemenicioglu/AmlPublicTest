@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CAEXFile SchemaVersion="3.0" FileName="AutomationML_BasicProperties_Libraries_AMLEd2_0.0.5.aml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.dke.de/CAEX" xsi:schemaLocation="http://www.dke.de/CAEX CAEX_ClassModel_V.3.0.xsd">
+  <SuperiorStandardVersion>AutomationML 2.1</SuperiorStandardVersion>
+  <SourceDocumentInformation OriginName="BasicProperties_Libraries" OriginID="9adc8637-4f24-4eab-8b84-cbf01d98c966" OriginVersion="0.0.5" LastWritingDateTime="2025-02-01T00:07:10.2022178+01:00" OriginProjectID="" OriginProjectTitle="" OriginRelease="0.0.5" OriginVendor="AutomationML" OriginVendorURL="https://automationml.org/AutomationML_BasicProperties_Libraries_AMLEd2_0.0.5.aml" />
+  <AttributeTypeLib Name="AutomationML_BasicProperties.General_AttributeTypeLib" ID="41774f97-e1c3-459d-a601-b4f01a19dd43">
+    <Description>Attribute type library of general basic properties - for demonstration purposes (DEMO)</Description>
+    <Version>0.0.5</Version>
+    <Revision>
+      <RevisionDate>2025-01-23T10:15:05.4289421+01:00</RevisionDate>
+      <OldVersion></OldVersion>
+      <AuthorName>drath</AuthorName>
+    </Revision>
+    <AttributeType Name="dimension" ID="af8e216c-2ab4-4127-a211-bd79c3ded400" AttributeDataType="xs:double" Unit="m">
+      <Description>a measure of the spacial extend in a particular direction</Description>
+      <Version>1.0.0</Version>
+      <Revision>
+        <RevisionDate>2025-01-23T10:15:05.4499183+01:00</RevisionDate>
+        <OldVersion></OldVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="length" ID="4b627153-c241-4df2-9fc6-016ac31e3b86" AttributeDataType="xs:double" Unit="m" RefAttributeType="AutomationML_BasicProperties.General_AttributeTypeLib/dimension">
+      <Description>The longest dimension of an object, typically measured from one end to the other along its greatest extent.</Description>
+      <Version>1.0.0</Version>
+      <Revision>
+        <RevisionDate>2025-01-23T10:15:05.5473681+01:00</RevisionDate>
+        <OldVersion></OldVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="width" ID="d07e2dd9-9441-4941-9472-ce724d125718" AttributeDataType="xs:double" Unit="m" RefAttributeType="AutomationML_BasicProperties.General_AttributeTypeLib/dimension">
+      <Description>The dimension of an object that is perpendicular to its length, often referring to how wide the object is.</Description>
+      <Version>1.0.0</Version>
+      <Revision>
+        <RevisionDate>2025-01-23T10:15:05.5544098+01:00</RevisionDate>
+        <OldVersion></OldVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="height" ID="dc4295b5-8c1f-41da-aedc-910d69cb910c" AttributeDataType="xs:double" Unit="m" RefAttributeType="AutomationML_BasicProperties.General_AttributeTypeLib/dimension">
+      <Description>The dimension of an object measured perpendicular to its base, indicating how tall it is.</Description>
+      <Version>1.0.0</Version>
+      <Revision>
+        <RevisionDate>2025-01-23T10:15:05.5611535+01:00</RevisionDate>
+        <OldVersion></OldVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="volume" ID="adbf5614-aa39-4b6f-ab36-4bc4c0003816" AttributeDataType="xs:double" Unit="m^3">
+      <Description>The amount of three-dimensional space an object occupies, typically measured in cubic units (e.g., cubic meters).</Description>
+      <Version>1.0.0</Version>
+      <Revision>
+        <RevisionDate>2025-01-23T10:15:05.5679039+01:00</RevisionDate>
+        <OldVersion></OldVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="diameter" ID="8f944874-a415-4333-96be-52bb923a1c1e" AttributeDataType="xs:double" RefAttributeType="AutomationML_BasicProperties.General_AttributeTypeLib/dimension" Unit="m">
+      <Description>The straight-line distance passing through the center of a circle or sphere, connecting two points on its boundary.</Description>
+      <Version>1.0.0</Version>
+      <Revision>
+        <RevisionDate>2025-01-23T10:15:05.5744678+01:00</RevisionDate>
+        <OldVersion></OldVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="innerDiameter" RefAttributeType="AutomationML_BasicProperties.General_AttributeTypeLib/diameter" ID="c1b87b91-3000-4ea9-819f-7be94e0caa6e" AttributeDataType="xs:double">
+      <Description>inner diameter of a circular geometry</Description>
+      <Version>1.0.0</Version>
+      <Revision>
+        <RevisionDate>2025-01-23T10:15:05.5893671+01:00</RevisionDate>
+        <OldVersion></OldVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="outerDiameter" RefAttributeType="AutomationML_BasicProperties.General_AttributeTypeLib/diameter" ID="59cf3916-3c18-4e20-ac94-da0d6b85f53e" AttributeDataType="xs:double">
+      <Description>outer diameter of a circular geometry</Description>
+      <Version>1.0.0</Version>
+      <Revision>
+        <RevisionDate>2025-01-23T10:15:05.5949574+01:00</RevisionDate>
+        <OldVersion></OldVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="range" RefAttributeType="AutomationML_BasicProperties.General_AttributeTypeLib/dimension" ID="ceea7ec9-88e7-442b-b174-4dbfe5dd268f" AttributeDataType="xs:double">
+      <Description>maximum distance</Description>
+      <Version>1.0.0</Version>
+      <Revision>
+        <RevisionDate>2025-01-23T10:15:05.6003054+01:00</RevisionDate>
+        <OldVersion></OldVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="distance" RefAttributeType="AutomationML_BasicProperties.General_AttributeTypeLib/dimension" ID="1932b62f-f31e-4332-87a0-2f77e1af2999" AttributeDataType="xs:double">
+      <Description>measure of space between two points</Description>
+      <Version>1.0.0</Version>
+      <Revision>
+        <RevisionDate>2025-01-23T10:15:05.6062727+01:00</RevisionDate>
+        <OldVersion></OldVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+    </AttributeType>
+  </AttributeTypeLib>
+  <AttributeTypeLib Name="AutomationML_BasicProperties.Color_AttributeTypeLib" ID="d10649b9-e7dc-4655-95db-fa7fa5a6dd7a">
+    <Description>Attribute type library of basic color attribute types - for demonstration purposes (DEMO)</Description>
+    <Version>0.0.5</Version>
+    <Revision>
+      <RevisionDate>2025-01-23T10:15:05.6127994+01:00</RevisionDate>
+      <OldVersion></OldVersion>
+      <AuthorName>drath</AuthorName>
+    </Revision>
+    <AttributeType Name="color" ID="76e133b5-839f-43d2-b195-8681e34af95f" AttributeDataType="xs:string">
+      <Description>generic color value</Description>
+      <Version>1.0.0</Version>
+      <Revision>
+        <RevisionDate>2025-01-23T10:15:05.6400785+01:00</RevisionDate>
+        <OldVersion></OldVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="RAL" RefAttributeType="AutomationML_BasicProperties.Color_AttributeTypeLib/color" ID="1917d508-35a2-4d37-80a2-981c4abfd7bf" AttributeDataType="xs:string">
+      <Description>color in RAL format</Description>
+      <Version>1.0.0</Version>
+      <Revision>
+        <RevisionDate>2025-01-23T10:15:05.6454931+01:00</RevisionDate>
+        <OldVersion></OldVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="RGB" RefAttributeType="AutomationML_BasicProperties.Color_AttributeTypeLib/color" ID="738ae261-331e-4534-837f-7a70c051068b">
+      <Description>color in RGB format</Description>
+      <Version>1.0.0</Version>
+      <Revision>
+        <RevisionDate>2025-01-23T10:15:05.6507917+01:00</RevisionDate>
+        <OldVersion></OldVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+      <Attribute Name="R" AttributeDataType="xs:string" RefAttributeType="AutomationML_BasicProperties.Color_AttributeTypeLib/color">
+        <Description>red color value</Description>
+      </Attribute>
+      <Attribute Name="G" AttributeDataType="xs:string" RefAttributeType="AutomationML_BasicProperties.Color_AttributeTypeLib/color">
+        <Description>green color value</Description>
+      </Attribute>
+      <Attribute Name="B" AttributeDataType="xs:string" RefAttributeType="AutomationML_BasicProperties.Color_AttributeTypeLib/color">
+        <Description>Blue color value</Description>
+      </Attribute>
+    </AttributeType>
+    <AttributeType Name="CMYK" RefAttributeType="AutomationML_BasicProperties.Color_AttributeTypeLib/color" ID="f0fb949b-4b8f-400c-b5a8-665128e53868">
+      <Description>Color in CYMK format</Description>
+      <Version>1.0.0</Version>
+      <Revision>
+        <RevisionDate>2025-01-23T10:15:05.6561203+01:00</RevisionDate>
+        <OldVersion></OldVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+      <Attribute Name="C" AttributeDataType="xs:string" RefAttributeType="AutomationML_BasicProperties.Color_AttributeTypeLib/color">
+        <Description>Cyan color value</Description>
+      </Attribute>
+      <Attribute Name="M" AttributeDataType="xs:string" RefAttributeType="AutomationML_BasicProperties.Color_AttributeTypeLib/color">
+        <Description>magenta color value</Description>
+      </Attribute>
+      <Attribute Name="Y" AttributeDataType="xs:string" RefAttributeType="AutomationML_BasicProperties.Color_AttributeTypeLib/color">
+        <Description>yellow color value</Description>
+      </Attribute>
+      <Attribute Name="K" AttributeDataType="xs:string" RefAttributeType="AutomationML_BasicProperties.Color_AttributeTypeLib/color">
+        <Description>black color value
+</Description>
+      </Attribute>
+    </AttributeType>
+  </AttributeTypeLib>
+  <AttributeTypeLib Name="AutomationML_BasicProperties.Physics_AttributeTypeLib" ID="4e07dc53-5732-4b78-81b0-94b3f9d57fcc">
+    <Description>Attribute type library of basic physics attribute types - for demonstration purposes (DEMO</Description>
+    <Version>0.0.5</Version>
+    <Revision>
+      <RevisionDate>2025-01-23T10:15:05.6615403+01:00</RevisionDate>
+      <OldVersion></OldVersion>
+      <AuthorName>drath</AuthorName>
+    </Revision>
+    <AttributeType Name="speed" ID="374968f9-ea70-4383-86f5-7f647a6c3db6" AttributeDataType="xs:double" Unit="m/s">
+      <Description>The rate at which an object covers distance, measured as the magnitude of velocity, typically in meters per second (m/s).</Description>
+      <Version>1.0.0</Version>
+      <Revision>
+        <RevisionDate>2025-01-23T10:15:05.6738077+01:00</RevisionDate>
+        <OldVersion></OldVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="velocity" ID="a6e05a5b-ed15-4e55-9d05-16f16895517d" AttributeDataType="xs:double" RefAttributeType="AutomationML_BasicProperties.Physics_AttributeTypeLib/speed">
+      <Description>The rate of change of an object’s position with direction, measured in meters per second (m/s^2).</Description>
+      <Version>1.0.0</Version>
+      <Revision>
+        <RevisionDate>2025-01-23T10:15:05.6793974+01:00</RevisionDate>
+        <OldVersion></OldVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="coordinate" ID="7f408b6c-3fc2-4eb3-b6ef-0e60f532af88" AttributeDataType="xs:double" Unit="m">
+      <Description>A numerical value or set of values that specify the position of a point in space relative to a reference system.</Description>
+      <Version>1.0.0</Version>
+      <Revision>
+        <RevisionDate>2025-01-23T10:15:05.6853308+01:00</RevisionDate>
+        <OldVersion></OldVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="point" ID="4c71cf75-f583-4e3e-b75b-d06a531d3fdc" AttributeDataType="xs:string">
+      <Description>A specific location in space defined by its coordinates, having no dimensions or size.</Description>
+      <Version>1.0.0</Version>
+      <Revision>
+        <RevisionDate>2025-01-23T10:15:05.6933672+01:00</RevisionDate>
+        <OldVersion></OldVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+      <Attribute Name="x" AttributeDataType="xs:double" RefAttributeType="AutomationML_BasicProperties.Physics_AttributeTypeLib/coordinate" Unit="m" />
+      <Attribute Name="y" AttributeDataType="xs:double" RefAttributeType="AutomationML_BasicProperties.Physics_AttributeTypeLib/coordinate" Unit="m" />
+      <Attribute Name="z" AttributeDataType="xs:double" RefAttributeType="AutomationML_BasicProperties.Physics_AttributeTypeLib/coordinate" Unit="m" />
+    </AttributeType>
+    <AttributeType Name="temperature" ID="ae160881-21bc-406f-88d6-319ba60dbe66" AttributeDataType="xs:double" Unit="°C">
+      <Description>A measure of the average kinetic energy of particles in a substance, measured in kelvins (K).</Description>
+      <Version>1.0.0</Version>
+      <Revision>
+        <RevisionDate>2025-01-23T10:15:05.7024893+01:00</RevisionDate>
+        <OldVersion></OldVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="force" ID="d05cb017-7fdd-4ac3-9282-6a8cc6e8870b" AttributeDataType="xs:double" Unit="N">
+      <Description>A push or pull on an object that causes it to accelerate, measured in newtons (N).</Description>
+      <Version>1.0.0</Version>
+      <Revision>
+        <RevisionDate>2025-01-23T10:15:05.7171369+01:00</RevisionDate>
+        <OldVersion></OldVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="mass" ID="08c14034-6444-478a-8e7d-093b959318f7" AttributeDataType="xs:double" Unit="kg">
+      <Description>The amount of matter in an object, measured in kilograms (kg).</Description>
+      <Version>1.0.0</Version>
+      <Revision>
+        <RevisionDate>2025-01-23T10:15:05.7237673+01:00</RevisionDate>
+        <OldVersion></OldVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="energy" ID="0beb18d3-5252-47b4-bc6c-5e3edd1fe488" AttributeDataType="xs:double" Unit="J">
+      <Description>The capacity to do work, measured in joules (J).</Description>
+      <Version>1.0.0</Version>
+      <Revision>
+        <RevisionDate>2025-01-23T10:15:05.729642+01:00</RevisionDate>
+        <OldVersion></OldVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="power" ID="0bead0f8-5da0-4d23-90e0-21a4f211f9df" AttributeDataType="xs:double" Unit="W">
+      <Description>The rate at which work is done or energy is transferred, measured in watts (W).</Description>
+      <Version>1.0.0</Version>
+      <Revision>
+        <RevisionDate>2025-01-23T10:15:05.7365524+01:00</RevisionDate>
+        <OldVersion></OldVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="work" ID="7e1375d5-3f55-4218-bf6c-d8cf69256355" AttributeDataType="xs:double" Unit="J">
+      <Description>The energy transferred when a force is applied over a distance, measured in joules (J).</Description>
+      <Version>1.0.0</Version>
+      <Revision>
+        <RevisionDate>2025-01-23T10:15:05.7429473+01:00</RevisionDate>
+        <OldVersion></OldVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="momentum" ID="202d96aa-055e-4e79-9e04-3a1546f91bf5" AttributeDataType="xs:double" Unit="kg*m/s">
+      <Description>The product of an object’s mass and velocity, representing its motion, measured in kilogram meters per second (kg·m/s).</Description>
+      <Version>1.0.0</Version>
+      <Revision>
+        <RevisionDate>2025-01-23T10:15:05.7667278+01:00</RevisionDate>
+        <OldVersion></OldVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="staticPressure" ID="871513c2-8ac5-49e8-b16e-bed5100259dc" AttributeDataType="xs:double" Unit="Pa">
+      <Description>Force exerted per unit area, measured in pascals (Pa).</Description>
+      <Version>1.0.0</Version>
+      <Revision>
+        <RevisionDate>2025-01-23T10:15:05.7728555+01:00</RevisionDate>
+        <OldVersion></OldVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="frequency" ID="307c0099-18ed-4202-8d86-3dbfea2975af" AttributeDataType="xs:double" Unit="Hz">
+      <Description>The number of cycles of a periodic phenomenon per second, measured in hertz (Hz).</Description>
+      <Version>1.0.0</Version>
+      <Revision>
+        <RevisionDate>2025-01-23T10:15:05.779419+01:00</RevisionDate>
+        <OldVersion></OldVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="wavelength" ID="62a2f5fa-a888-4d23-ba67-e82e5bf54463" AttributeDataType="xs:double" Unit="Å">
+      <Description>The distance between successive peaks or troughs of a wave, measured in meters (m).</Description>
+      <Version>1.0.0</Version>
+      <Revision>
+        <RevisionDate>2025-01-23T10:15:05.788372+01:00</RevisionDate>
+        <OldVersion></OldVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="angularVelocity" ID="b8027fc6-19cf-4fc9-a145-fc75365f20b0" AttributeDataType="xs:double" Unit="rad/s">
+      <Description>The rate of change of angular position, measured in radians per second (rad/s).</Description>
+      <Version>1.0.0</Version>
+      <Revision>
+        <RevisionDate>2025-01-23T10:15:05.796863+01:00</RevisionDate>
+        <OldVersion></OldVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="density" ID="4a4f19b3-4c86-4fb9-b3ec-2058dade0cb8" AttributeDataType="xs:double" Unit="kg/m^3">
+      <Description>The mass per unit volume of a substance, measured in kilograms per cubic meter (kg/m³).</Description>
+      <Version>1.0.0</Version>
+      <Revision>
+        <RevisionDate>2025-01-23T10:15:05.8121776+01:00</RevisionDate>
+        <OldVersion></OldVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="specificHeatCapacity" ID="502183df-0598-4f58-a12b-b75c5d8bdd37" AttributeDataType="xs:double" Unit="J/(kg*K)">
+      <Description>The amount of heat required to change the temperature of a unit mass by one degree, measured in joules per kilogram per kelvin (J/kg·K).</Description>
+      <Version>1.0.0</Version>
+      <Revision>
+        <RevisionDate>2025-01-23T10:15:05.8186489+01:00</RevisionDate>
+        <OldVersion></OldVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="acceleration" ID="70300503-ebdd-47fe-bc4c-36b3a69f5d8a" AttributeDataType="xs:double" Unit="m/s^2">
+      <Description>The rate of change of velocity of an object, measured in meters per second squared (m/s²).</Description>
+      <Version>1.0.0</Version>
+      <Revision>
+        <RevisionDate>2025-01-23T10:15:05.8251156+01:00</RevisionDate>
+        <OldVersion></OldVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="gravityAcceleration" RefAttributeType="AutomationML_BasicProperties.Physics_AttributeTypeLib/acceleration" ID="da90ed61-f752-4f09-8001-62c1391ebcf7" AttributeDataType="xs:double">
+      <Description>The acceleration experienced by an object in free fall near a massive body, approximately on Earth.</Description>
+      <Version>1.0.0</Version>
+      <Revision>
+        <RevisionDate>2025-01-23T10:15:05.8317362+01:00</RevisionDate>
+        <OldVersion></OldVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+    </AttributeType>
+  </AttributeTypeLib>
+  <AttributeTypeLib Name="AutomationML_BasicProperties.Electrics_AttributeTypeLib" ID="f95f140e-1387-48ae-81d4-afc60f5bc299">
+    <Description>Attribute type library of basic electric attribute types - (DEMO)</Description>
+    <Version>0.0.5</Version>
+    <Revision>
+      <RevisionDate>2025-01-23T10:15:05.8450146+01:00</RevisionDate>
+      <OldVersion></OldVersion>
+      <AuthorName>drath</AuthorName>
+    </Revision>
+    <AttributeType Name="electricCurrent" ID="0dd9f98d-8053-4977-82d8-fd79505001b5" AttributeDataType="xs:double" Unit="A">
+      <Description>The flow of electric charge per unit time, measured in amperes (A).</Description>
+      <Version>1.0.0</Version>
+      <Revision>
+        <RevisionDate>2025-01-23T10:15:05.851306+01:00</RevisionDate>
+        <OldVersion></OldVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="voltage" ID="d6d4770d-87d9-4d9c-9a8b-863c706ad86a" AttributeDataType="xs:double" Unit="V">
+      <Description>The electric potential difference between two points, measured in volts (V).</Description>
+      <Version>1.0.0</Version>
+      <Revision>
+        <RevisionDate>2025-01-23T10:15:05.8576117+01:00</RevisionDate>
+        <OldVersion></OldVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="resistance" ID="1c770ac0-9256-4ac9-a365-b47c94f43634" AttributeDataType="xs:double" Unit="Ω">
+      <Description>The opposition to the flow of electric current, measured in ohms (Ω).</Description>
+      <Version>1.0.0</Version>
+      <Revision>
+        <RevisionDate>2025-01-23T10:15:05.8637591+01:00</RevisionDate>
+        <OldVersion></OldVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="capacity" ID="c075762b-c45a-46a5-ad5c-d1cf04ddda32" AttributeDataType="xs:double" Unit="F">
+      <Description>The ability of a system to store electric charge, measured in farads (F).</Description>
+      <Version>1.0.0</Version>
+      <Revision>
+        <RevisionDate>2025-01-23T10:15:05.8708882+01:00</RevisionDate>
+        <OldVersion></OldVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="magneticFieldStrength" ID="55469615-1870-4652-8ce5-1dce4da259b1" AttributeDataType="xs:double" Unit="A/m">
+      <Description>The intensity of a magnetic field at a point, measured in teslas (T).</Description>
+      <Version>1.0.0</Version>
+      <Revision>
+        <RevisionDate>2025-01-23T10:15:05.8930458+01:00</RevisionDate>
+        <OldVersion></OldVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="electricFieldStrength" ID="d200d1fc-79d4-48b4-9786-7bf37b8bef17" AttributeDataType="xs:string">
+      <Description>asdfasdf</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+  </AttributeTypeLib>
+</CAEXFile>

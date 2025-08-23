@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CAEXFile SchemaVersion="3.0" FileName="HSPF_MasterClass_AttributeTypeLib_AMLEd2_1.1.1.aml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.dke.de/CAEX" xsi:schemaLocation="http://www.dke.de/CAEX CAEX_ClassModel_V.3.0.xsd">
+  <SuperiorStandardVersion>AutomationML 2.1</SuperiorStandardVersion>
+  <SourceDocumentInformation OriginName="MasterClass_AttributeTypeLib" OriginID="fd589858-bdc8-4075-ada0-0f42187ea732" OriginVersion="1.1.1" LastWritingDateTime="2025-08-05T23:51:51.3576597+02:00" OriginProjectID="" OriginProjectTitle="" OriginRelease="1.1.1" OriginVendor="HSPF" OriginVendorURL="HSPF_MasterClass_AttributeTypeLib_AMLEd2_1.1.1.aml" />
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/HSPF_MasterClass_AttributeTypeLib_AMLEd2_1.1.0.aml" Alias="HSPFMasterClassAttributeTypeLibAMLEd21_1_0">
+    <Description>VersionRef</Description>
+    <Version>OldVersion</Version>
+  </ExternalReference>
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/HSPF_MasterClass_AttributeTypeLib_AMLEd2_1.2.0.aml" Alias="HSPFMasterClassAttributeTypeLibAMLEd21_2_0">
+    <Description>VersionRef</Description>
+    <Version>NewVersion</Version>
+  </ExternalReference>
+  <AttributeTypeLib Name="HSPF_MasterClass_AttributeTypeLib" ID="d3aa17de-6323-4341-97b7-cd492dc453a8">
+    <Description>Eine experimentelle Attributtyplibrary</Description>
+    <Version>1.1.1</Version>
+    <Revision>
+      <RevisionDate>2025-08-05T23:51:51.3485601+02:00</RevisionDate>
+      <OldVersion>HSPFMasterClassAttributeTypeLibAMLEd21_1_0@HSPF_MasterClass_AttributeTypeLib</OldVersion>
+      <AuthorName>drath</AuthorName>
+    </Revision>
+    <Revision>
+      <RevisionDate>2025-08-06T08:21:10.6235819+02:00</RevisionDate>
+      <NewVersion>HSPFMasterClassAttributeTypeLibAMLEd21_2_0@HSPF_MasterClass_AttributeTypeLib</NewVersion>
+      <AuthorName>drath</AuthorName>
+    </Revision>
+    <AttributeType Name="laenge-Typ" AttributeDataType="xs:string" ID="64b9aaef-c381-49b9-9f47-11ef8bc0eff9">
+      <Description>eine geometrische Länge</Description>
+      <Version>1.1.1</Version>
+      <Revision>
+        <RevisionDate>2025-08-05T23:51:51.3511751+02:00</RevisionDate>
+        <OldVersion>HSPFMasterClassAttributeTypeLibAMLEd21_1_0@HSPF_MasterClass_AttributeTypeLib/laenge-Typ</OldVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+      <Revision>
+        <RevisionDate>2025-08-06T08:21:10.6371416+02:00</RevisionDate>
+        <NewVersion>HSPFMasterClassAttributeTypeLibAMLEd21_2_0@HSPF_MasterClass_AttributeTypeLib/laenge-Typ</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="breite-Typ" AttributeDataType="xs:string" ID="e2b689ce-1f3c-4aa3-b485-f9b8245b25d3">
+      <Description>eine geometrische Breite</Description>
+      <Version>1.1.1</Version>
+      <Revision>
+        <RevisionDate>2025-08-05T23:51:51.3532432+02:00</RevisionDate>
+        <OldVersion>HSPFMasterClassAttributeTypeLibAMLEd21_1_0@HSPF_MasterClass_AttributeTypeLib/breite-Typ</OldVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+      <Revision>
+        <RevisionDate>2025-08-06T08:21:10.6491193+02:00</RevisionDate>
+        <NewVersion>HSPFMasterClassAttributeTypeLibAMLEd21_2_0@HSPF_MasterClass_AttributeTypeLib/breite-Typ</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="hoeheTyp" AttributeDataType="xs:string" ID="dde31796-c974-4621-9db8-918305b2eb44">
+      <Description>eine geometrische Höhe</Description>
+      <Version>1.1.1</Version>
+      <Revision>
+        <RevisionDate>2025-08-05T23:51:51.3542192+02:00</RevisionDate>
+        <OldVersion>HSPFMasterClassAttributeTypeLibAMLEd21_1_0@HSPF_MasterClass_AttributeTypeLib/hoeheTyp</OldVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+      <Revision>
+        <RevisionDate>2025-08-06T08:21:10.6542695+02:00</RevisionDate>
+        <NewVersion>HSPFMasterClassAttributeTypeLibAMLEd21_2_0@HSPF_MasterClass_AttributeTypeLib/hoeheTyp</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+    </AttributeType>
+    <AttributeType Name="vol" ID="20d30616-67be-4b74-8dcd-3d6001ed3e58" AttributeDataType="xs:string">
+      <Description>tes</Description>
+      <Version>1.0.1</Version>
+      <Revision>
+        <RevisionDate>2025-08-05T23:51:51.355056+02:00</RevisionDate>
+        <OldVersion>HSPFMasterClassAttributeTypeLibAMLEd21_1_0@HSPF_MasterClass_AttributeTypeLib/vol</OldVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+      <Revision>
+        <RevisionDate>2025-08-06T08:21:10.6585979+02:00</RevisionDate>
+        <NewVersion>HSPFMasterClassAttributeTypeLibAMLEd21_2_0@HSPF_MasterClass_AttributeTypeLib/vol</NewVersion>
+        <AuthorName>drath</AuthorName>
+      </Revision>
+    </AttributeType>
+  </AttributeTypeLib>
+</CAEXFile>
