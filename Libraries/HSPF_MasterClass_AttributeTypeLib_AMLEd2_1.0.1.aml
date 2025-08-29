@@ -14,6 +14,10 @@
     <Description>VersionRef</Description>
     <Version>NewVersion</Version>
   </ExternalReference>
+  <ExternalReference Path="https://github.com/EnderYemenicioglu/AmlPublicTest/blob/main/Libraries/HSPF_MasterClass_AttributeTypeLib_AMLEd2_1.0.2.aml" Alias="HSPFMasterClassAttributeTypeLibAMLEd21_0_2">
+    <Description>VersionRef</Description>
+    <Version>NewVersion</Version>
+  </ExternalReference>
   <AttributeTypeLib Name="HSPF_MasterClass_AttributeTypeLib" ID="d3aa17de-6323-4341-97b7-cd492dc453a8">
     <Description>Eine experimentelle Attributtyplibrary</Description>
     <Version>1.0.1</Version>
@@ -32,6 +36,11 @@
       <NewVersion>HSPFMasterClassAttributeTypeLibAMLEd21_0_2@HSPF_MasterClass_AttributeTypeLib</NewVersion>
       <AuthorName>yemenicioglu</AuthorName>
     </Revision>
+    <Revision>
+      <RevisionDate>2025-08-29T18:08:24.7538843+02:00</RevisionDate>
+      <NewVersion>HSPFMasterClassAttributeTypeLibAMLEd21_0_2@HSPF_MasterClass_AttributeTypeLib</NewVersion>
+      <AuthorName>yemenicioglu</AuthorName>
+    </Revision>
     <AttributeType Name="laenge-Typ" AttributeDataType="xs:string" ID="64b9aaef-c381-49b9-9f47-11ef8bc0eff9">
       <Description>eine geometrische Länge</Description>
       <Version>1.0.1</Version>
@@ -47,6 +56,11 @@
       </Revision>
       <Revision>
         <RevisionDate>2025-08-29T18:07:45.2172731+02:00</RevisionDate>
+        <NewVersion>HSPFMasterClassAttributeTypeLibAMLEd21_0_2@HSPF_MasterClass_AttributeTypeLib/laenge-Typ</NewVersion>
+        <AuthorName>yemenicioglu</AuthorName>
+      </Revision>
+      <Revision>
+        <RevisionDate>2025-08-29T18:08:24.7682925+02:00</RevisionDate>
         <NewVersion>HSPFMasterClassAttributeTypeLibAMLEd21_0_2@HSPF_MasterClass_AttributeTypeLib/laenge-Typ</NewVersion>
         <AuthorName>yemenicioglu</AuthorName>
       </Revision>
@@ -69,6 +83,11 @@
         <NewVersion>HSPFMasterClassAttributeTypeLibAMLEd21_0_2@HSPF_MasterClass_AttributeTypeLib/breite-Typ</NewVersion>
         <AuthorName>yemenicioglu</AuthorName>
       </Revision>
+      <Revision>
+        <RevisionDate>2025-08-29T18:08:24.7787298+02:00</RevisionDate>
+        <NewVersion>HSPFMasterClassAttributeTypeLibAMLEd21_0_2@HSPF_MasterClass_AttributeTypeLib/breite-Typ</NewVersion>
+        <AuthorName>yemenicioglu</AuthorName>
+      </Revision>
     </AttributeType>
     <AttributeType Name="hoeheTyp" AttributeDataType="xs:string" ID="dde31796-c974-4621-9db8-918305b2eb44">
       <Description>eine geometrische Höhe</Description>
@@ -85,6 +104,11 @@
       </Revision>
       <Revision>
         <RevisionDate>2025-08-29T18:07:45.2375347+02:00</RevisionDate>
+        <NewVersion>HSPFMasterClassAttributeTypeLibAMLEd21_0_2@HSPF_MasterClass_AttributeTypeLib/hoeheTyp</NewVersion>
+        <AuthorName>yemenicioglu</AuthorName>
+      </Revision>
+      <Revision>
+        <RevisionDate>2025-08-29T18:08:24.785332+02:00</RevisionDate>
         <NewVersion>HSPFMasterClassAttributeTypeLibAMLEd21_0_2@HSPF_MasterClass_AttributeTypeLib/hoeheTyp</NewVersion>
         <AuthorName>yemenicioglu</AuthorName>
       </Revision>
