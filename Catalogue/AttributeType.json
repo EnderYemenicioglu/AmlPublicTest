@@ -142,5 +142,14 @@
     "LibraryVersion": "1.1.2",
     "AMLEdition": "AMLEd2",
     "ID": "20d30616-67be-4b74-8dcd-3d6001ed3e58"
+  },
+  {
+    "ClassName": "subsee",
+    "CaexPath": "HSPF_MasterClass_AttributeTypeLib_SubseaExtension/subsee",
+    "BasePath": null,
+    "LibraryName": "HSPF_MasterClass_AttributeTypeLib_SubseaExtension",
+    "LibraryVersion": "1.0.0",
+    "AMLEdition": "AMLEd2",
+    "ID": "60239e58-7401-43da-b2f3-2ec99adfb8ef"
   }
 ]
