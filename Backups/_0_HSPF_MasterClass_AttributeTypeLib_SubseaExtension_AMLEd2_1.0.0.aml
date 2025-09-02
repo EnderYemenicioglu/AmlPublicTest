@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CAEXFile SchemaVersion="3.0" FileName="HSPF_MasterClass_AttributeTypeLib_SubseaExtension_AMLEd2_1.0.0.aml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.dke.de/CAEX" xsi:schemaLocation="http://www.dke.de/CAEX CAEX_ClassModel_V.3.0.xsd">
+  <SuperiorStandardVersion>AutomationML 2.1</SuperiorStandardVersion>
+  <SourceDocumentInformation OriginName="MasterClass_AttributeTypeLib_SubseaExtension" OriginID="8a64ffa7-d29b-4774-ab42-77dcbab7947a" OriginVersion="1.0.0" LastWritingDateTime="2025-08-05T23:54:01.2997007+02:00" OriginProjectID="" OriginProjectTitle="" OriginRelease="1.0.0" OriginVendor="HSPF" OriginVendorURL="HSPF_MasterClass_AttributeTypeLib_SubseaExtension_AMLEd2_1.0.0.aml" />
+  <SourceDocumentInformation OriginName="MasterClass_AttributeTypeLib" OriginID="0628d226-3c4a-4ccd-b49a-d3748adee095" OriginVersion="1.1.0" LastWritingDateTime="2025-08-05T23:50:36.8526971+02:00" OriginProjectID="" OriginProjectTitle="" OriginRelease="HSPF" OriginVendor="HSPF" OriginVendorURL="HSPF_MasterClass_AttributeTypeLib_AMLEd2_1.1.0.aml" />
+  <ExternalReference Path="https://github.com/Drath2019/AMLLibrarySpaceTest2025_2/blob/main/Libraries/HSPF_MasterClass_AttributeTypeLib_AMLEd2_1.1.0.aml" Alias="HSPFMasterClassAttributeTypeLibAMLEd21_1_0">
+    <Version>Extension</Version>
+  </ExternalReference>
+  <AttributeTypeLib Name="HSPF_MasterClass_AttributeTypeLib_SubseaExtension">
+    <Version>1.0.0</Version>
+    <Revision>
+      <Description>SubseaExtension</Description>
+      <Version>Extension</Version>
+      <RevisionDate>2025-08-05T23:54:01.2737244+02:00</RevisionDate>
+      <OldVersion>HSPFMasterClassAttributeTypeLibAMLEd21_1_0@HSPF_MasterClass_AttributeTypeLib</OldVersion>
+      <AuthorName>drath</AuthorName>
+    </Revision>
+    <AttributeType Name="subsee" ID="60239e58-7401-43da-b2f3-2ec99adfb8ef" AttributeDataType="xs:string">
+      <Description>test</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+  </AttributeTypeLib>
+</CAEXFile>
