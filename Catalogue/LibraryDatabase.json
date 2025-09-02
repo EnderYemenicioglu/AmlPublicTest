@@ -57,26 +57,6 @@
               "Revision": null
             }
           ]
-        },
-        {
-          "Name": "HSPF_MasterClass_AttributeTypeLib_SubseaExtension",
-          "Versions": [
-            {
-              "Version": "1.0.0",
-              "CAEXVersion": "3.0",
-              "AMLEdition": "AMLEd2",
-              "IsArchived": false,
-              "Description": null,
-              "DownloadLink": null,
-              "DownloadLinks": [
-                "https://github.com/EnderYemenicioglu/AmlPublicTest/blob/main/Libraries%2FHSPF_MasterClass_AttributeTypeLib_SubseaExtension_AMLEd2_1.0.0.aml"
-              ],
-              "Sources": null,
-              "Signature": "MEUCIQDBR5hPm4yvpGqHAZsFO\u002Bi5KIqNXqNZ36eb49W7cJvolQIgEz/zJTB1NwIray5RGb/Gf24HyvBThl52J9CaGQOMIn8=",
-              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEOkM3k5UiPkUbT2XKe260wR8zNfyliZKqEzpgn1FDDf41u6L708O4qLKYdEDSVTmrrbHBRDj3C4cU5QBSSAstGg==",
-              "Revision": null
-            }
-          ]
         }
       ]
     }
