@@ -151,5 +151,14 @@
     "LibraryVersion": "1.0.0",
     "AMLEdition": "AMLEd2",
     "ID": "60239e58-7401-43da-b2f3-2ec99adfb8ef"
+  },
+  {
+    "ClassName": "space",
+    "CaexPath": "HSPF_MasterClass_AttributeTypeLib_SpaceExtensionExtension/space",
+    "BasePath": null,
+    "LibraryName": "HSPF_MasterClass_AttributeTypeLib_SpaceExtensionExtension",
+    "LibraryVersion": "1.0.11",
+    "AMLEdition": "AMLEd2",
+    "ID": "f7414685-4042-4580-9b04-5c533d5820fd"
   }
 ]
