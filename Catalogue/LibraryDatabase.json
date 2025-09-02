@@ -56,6 +56,28 @@
               "Sources": null,
               "Signature": "MEQCIBoAQEhCM2o3ch0f/nN0cvr3TzeK8hNaiLms1FSJM0alAiBjDrV1Urx7z2dq/eD5uVXUpIbriSYPzlKaXPsmBPGjAg==",
               "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEOkM3k5UiPkUbT2XKe260wR8zNfyliZKqEzpgn1FDDf41u6L708O4qLKYdEDSVTmrrbHBRDj3C4cU5QBSSAstGg==",
+              "Revision": {
+                "DownloadLink": null,
+                "DownloadLinks": [
+                  "https://github.com/EnderYemenicioglu/AmlPublicTest/blob/main/Libraries/HSPF_MasterClass_AttributeTypeLib_AMLEd2_1.0.1.aml"
+                ],
+                "Signature": "MEYCIQC0qyDKwl/PRufSPGx8FDQZ12QK5j9h4mt14eB9KDzulAIhAIKnaZ0H4\u002BSt28mF8WKzWoTckCgjhUY6Od2f8R3aoG5z",
+                "Revision": null
+              }
+            },
+            {
+              "Version": "1.0.2",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": "Eine experimentelle Attributtyplibrary",
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/EnderYemenicioglu/AmlPublicTest/blob/main/Libraries/HSPF_MasterClass_AttributeTypeLib_AMLEd2_1.0.2.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEUCIQDqwo2\u002B9TROq/vrGPraxDEH\u002BHqPom9BG7o6ML7pI8k3swIgRwJ/Mwb\u002BtHKoC6q1xK/TvUhpqUwnNqe5ICU1eRSYa7s=",
+              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEOkM3k5UiPkUbT2XKe260wR8zNfyliZKqEzpgn1FDDf41u6L708O4qLKYdEDSVTmrrbHBRDj3C4cU5QBSSAstGg==",
               "Revision": null
             }
           ]
