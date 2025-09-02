@@ -101,6 +101,26 @@
               "Revision": null
             }
           ]
+        },
+        {
+          "Name": "HSPF_MasterClass_AttributeTypeLib_SpaceExtensionExtension",
+          "Versions": [
+            {
+              "Version": "1.0.11",
+              "CAEXVersion": "3.0",
+              "AMLEdition": "AMLEd2",
+              "IsArchived": false,
+              "Description": null,
+              "DownloadLink": null,
+              "DownloadLinks": [
+                "https://github.com/EnderYemenicioglu/AmlPublicTest/blob/main/Libraries/HSPF_MasterClass_AttributeTypeLib_SpaceExtensionExtension_AMLEd2_1.0.11.aml"
+              ],
+              "Sources": null,
+              "Signature": "MEUCIDtflvP2fo8owRxyo9Uy9iZxmLfukQbQYpAqfBZMlh\u002BrAiEAg\u002B9CQRABQVH/XH0ItoTzecDZxMWzH9dkP4mln9yccyo=",
+              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEOkM3k5UiPkUbT2XKe260wR8zNfyliZKqEzpgn1FDDf41u6L708O4qLKYdEDSVTmrrbHBRDj3C4cU5QBSSAstGg==",
+              "Revision": null
+            }
+          ]
         }
       ]
     }
