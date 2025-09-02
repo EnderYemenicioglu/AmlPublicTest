@@ -84,7 +84,14 @@
                   "https://github.com/EnderYemenicioglu/AmlPublicTest/blob/main/Libraries/HSPF_MasterClass_AttributeTypeLib_AMLEd2_1.0.2.aml"
                 ],
                 "Signature": "MEUCIBQBuWrpo0CRDBNsBLVIZGvC4xfmcskOrDiRiPQacMxgAiEAt2djiQ\u002BBWmMe6H9JjYDOVTGQ2zkxDmEt3Me4bGaYbRM=",
-                "Revision": null
+                "Revision": {
+                  "DownloadLink": null,
+                  "DownloadLinks": [
+                    "https://github.com/EnderYemenicioglu/AmlPublicTest/blob/main/Libraries/HSPF_MasterClass_AttributeTypeLib_AMLEd2_1.0.2.aml"
+                  ],
+                  "Signature": "MEUCIFzXoaQVShi80\u002BBF71QfWOxK9L3z4fhrm\u002Buw8mlOSt//AiEAtMR\u002B29d9RhAzdxxigr2yYI2werwzA6oGCXdZ3LtRDIw=",
+                  "Revision": null
+                }
               }
             }
           ]
