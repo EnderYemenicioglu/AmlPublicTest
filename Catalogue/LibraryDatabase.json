@@ -7,21 +7,6 @@
           "Name": "HSPF_MasterClass_AttributeTypeLib",
           "Versions": [
             {
-              "Version": "1.0.0",
-              "CAEXVersion": "3.0",
-              "AMLEdition": "AMLEd2",
-              "IsArchived": false,
-              "Description": "Eine experimentelle Attributtyplibrary",
-              "DownloadLink": null,
-              "DownloadLinks": [
-                "https://github.com/EnderYemenicioglu/AmlPublicTest/blob/main/Libraries%2FHSPF_MasterClass_AttributeTypeLib_AMLEd2_1.0.0.aml"
-              ],
-              "Sources": null,
-              "Signature": "MEUCIQDrQU2wKdEqK7eI8B5jli/Gr1Bb1BY/GH3ltI6VdTIm9QIgalFCZYHMOOmab0EvfOlUTQpXLZDJ3Au6Kg8a7wXFy4A=",
-              "PublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEOkM3k5UiPkUbT2XKe260wR8zNfyliZKqEzpgn1FDDf41u6L708O4qLKYdEDSVTmrrbHBRDj3C4cU5QBSSAstGg==",
-              "Revision": null
-            },
-            {
               "Version": "1.0.1",
               "CAEXVersion": "3.0",
               "AMLEdition": "AMLEd2",
