@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CAEXFile SchemaVersion="3.0" FileName="HSPF_MasterClass_AttributeTypeLib_AMLEd2_1.0.0.aml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.dke.de/CAEX" xsi:schemaLocation="http://www.dke.de/CAEX CAEX_ClassModel_V.3.0.xsd">
+  <SuperiorStandardVersion>AutomationML 2.1</SuperiorStandardVersion>
+  <SourceDocumentInformation OriginName="MasterClass_AttributeTypeLib" OriginID="e299d4be-28f3-49b2-b784-9bd4eb3d3248" OriginVersion="1.0.0" LastWritingDateTime="2024-07-24T18:09:30.2570954+02:00" OriginProjectID="" OriginProjectTitle="" OriginRelease="1.0.0" OriginVendor="HSPF" OriginVendorURL="HSPF_MasterClass_AttributeTypeLib_AMLEd2_1.0.0.aml" />
+  <AttributeTypeLib Name="HSPF_MasterClass_AttributeTypeLib" ID="d3aa17de-6323-4341-97b7-cd492dc453a8">
+    <Description>Eine experimentelle Attributtyplibrary</Description>
+    <Version>1.0.0</Version>
+    <AttributeType Name="laenge-Typ" AttributeDataType="xs:string" ID="64b9aaef-c381-49b9-9f47-11ef8bc0eff9">
+      <Description>eine geometrische Länge</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="breite-Typ" AttributeDataType="xs:string" ID="e2b689ce-1f3c-4aa3-b485-f9b8245b25d3">
+      <Description>eine geometrische Breite</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+    <AttributeType Name="hoeheTyp" AttributeDataType="xs:string" ID="dde31796-c974-4621-9db8-918305b2eb44">
+      <Description>eine geometrische Höhe</Description>
+      <Version>1.0.0</Version>
+    </AttributeType>
+  </AttributeTypeLib>
+</CAEXFile>
