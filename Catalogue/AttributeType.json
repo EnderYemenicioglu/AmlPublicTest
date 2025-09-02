@@ -45,6 +45,15 @@
     "ID": "64b9aaef-c381-49b9-9f47-11ef8bc0eff9"
   },
   {
+    "ClassName": "laenge-Typ",
+    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/laenge-Typ",
+    "BasePath": null,
+    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
+    "LibraryVersion": "1.0.3",
+    "AMLEdition": "AMLEd2",
+    "ID": "64b9aaef-c381-49b9-9f47-11ef8bc0eff9"
+  },
+  {
     "ClassName": "breite-Typ",
     "CaexPath": "HSPF_MasterClass_AttributeTypeLib/breite-Typ",
     "BasePath": null,
@@ -90,6 +99,15 @@
     "ID": "e2b689ce-1f3c-4aa3-b485-f9b8245b25d3"
   },
   {
+    "ClassName": "breite-Typ",
+    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/breite-Typ",
+    "BasePath": null,
+    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
+    "LibraryVersion": "1.0.3",
+    "AMLEdition": "AMLEd2",
+    "ID": "e2b689ce-1f3c-4aa3-b485-f9b8245b25d3"
+  },
+  {
     "ClassName": "hoeheTyp",
     "CaexPath": "HSPF_MasterClass_AttributeTypeLib/hoeheTyp",
     "BasePath": null,
@@ -131,6 +149,15 @@
     "BasePath": null,
     "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
     "LibraryVersion": "1.0.1",
+    "AMLEdition": "AMLEd2",
+    "ID": "dde31796-c974-4621-9db8-918305b2eb44"
+  },
+  {
+    "ClassName": "hoeheTyp",
+    "CaexPath": "HSPF_MasterClass_AttributeTypeLib/hoeheTyp",
+    "BasePath": null,
+    "LibraryName": "HSPF_MasterClass_AttributeTypeLib",
+    "LibraryVersion": "1.0.3",
     "AMLEdition": "AMLEd2",
     "ID": "dde31796-c974-4621-9db8-918305b2eb44"
   },
